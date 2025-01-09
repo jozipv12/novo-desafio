@@ -44,18 +44,40 @@ section{
     font-family: var(--fonte3);
     font-size:2.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     color: black;
 }
 section.imagem{
-    background-color: rgb(48, 39, 39);
-    color: white;
+    background-color: rgba(48, 39, 39, 0.021);
+    color:rgb(207, 98, 98);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.712);
+    background-attachment: fixed;
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.623);
+    background-color:rgba(255, 255, 255, 0);
     display: inline-block;
     padding: 5px;
+   
+}
+section#img01{
+     background-image: url("../rosa\ g.jpg");
+     background-position:right center ;
+     background-size: cover;
+}
+section#img02{
+      background-image: url("../pedra.jpg"
+
+      );
+      background-position: right center;
+      background-size: cover;
+}
+section#img03{
+       background-image: url("../mm.jpg");
+       background-size: cover;
 }
 footer{
     background-color:black;
